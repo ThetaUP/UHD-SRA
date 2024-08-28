@@ -9,9 +9,8 @@ This repository contains the implementation of a research project focused on dim
 - [Installation](#installation)
 - [Usage](#usage)
   - [1. Run 1D-SRA or MD-SRA Feature Selection](#1-run-1d-sra-or-md-sra-feature-selection)
-  - [2. Set Parameters for 1D-SRA and MD-SRA](#2-set-parameters-for-1d-sra-and-md-sra)
-  - [3. K-means Clustering](#3-k-means-clustering)
-  - [4. Run the CNN Classification Model](#4-run-the-cnn-classification-model)
+  - [2. K-means Clustering](#3-k-means-clustering)
+  - [3. Run the CNN Classification Model](#4-run-the-cnn-classification-model)
 - [Contributing](#contributing)
 - [License](#license)
 
@@ -45,8 +44,6 @@ For more detailed information, please refer to the [original manuscript](#) or [
 ### 1. Run 1D-SRA or MD-SRA Feature Selection
 
 To perform feature selection, use the scripts `scripts/scripts_run_FS/1D-SRA.py` or `scripts/scripts_run_FS/MD-SRA.py`. Set the input variables by specifying the paths to the datasets.
-
-### 2. Set Parameters for 1D-SRA and MD-SRA
 
 - **1D-SRA:** Set the window size for feature selection and path to input files in `params`.
   
