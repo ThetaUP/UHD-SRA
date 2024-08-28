@@ -63,7 +63,7 @@ if __name__ == "__main__":
     params = {'X_train': '',
               'Y_train': '',
               'temp_folder': '',
-              'N_MODELS': 5}
+              'windows_size': 250}
 
     X = np.load(params['X_train'])
     Y = pd.read_csv(params['Y_train']).to_numpy()
@@ -72,7 +72,7 @@ if __name__ == "__main__":
     Y = lab.fit_transform(Y.ravel())
     print(Y.shape)
 
-    X_permutate, idx_chanks, perm_id, perm_id_inv = gen_window(X, 250)
+    X_permutate, idx_chanks, perm_id, perm_id_inv = gen_window(X, params['windows_size'])
 
     del X
 
