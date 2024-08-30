@@ -111,7 +111,7 @@ After feature selection, use the CNN model for classification. Update the paths 
 
 - Optionally, add your Neptune.ai token to monitor the training process:
     ```python
-    import neptune.new as neptune
+    import neptune
 
     run = neptune.init_run(
         project="your_project_name",
