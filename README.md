@@ -53,6 +53,7 @@ To perform feature selection, use the scripts `scripts/scripts_run_FS/1D-SRA.py`
               'temp_folder': '',
               'windows_size': 250}
     ```
+    **Note:** Please note that aggregation step for 1D-SRA based on Linear Mixed Model (LMM) us using the external software.
 
 - **MD-SRA:** Set both the window size with the number of repetitions to obtain multidimensional feature selection and path to input files in `params`.
   
