@@ -90,7 +90,7 @@ After feature selection with 1D-SRA or MD-SRA, apply K-means clustering to divid
     np.savetxt("l2_distances.csv", distances, delimiter=",")
     ```
 
-- **L2 Distance Calculation:** After running K-means, calculate the L2 (Euclidean) distance from each data point to the nearest cluster center. This can help in assessing how closely the features are grouped within the clusters.
+- **L2 Distance Calculation:** After running K-means, calculate the L2 (Euclidean) distance from each data point to the nearest cluster center.
 
 
 ### 4. Run the CNN Classification Model
